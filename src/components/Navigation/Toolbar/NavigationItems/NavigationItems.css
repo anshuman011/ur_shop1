@@ -17,7 +17,7 @@
 
 /* Sidedrawer :NavigationItemsA normal one for <500px media query one for >500px */
 .NavigationItemsA{
-    margin:10px;
+    margin:0px;
     padding: 0;
     list-style: none;
     display: flex;
