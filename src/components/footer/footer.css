@@ -1,0 +1,24 @@
+.Footer{ 
+     position: absolute;
+    background-color:/* #97008fd8 *//*  #e41b005b; */#4D0C79;
+    width:99.8%;
+    margin-bottom:10px;
+    box-shadow:0 5px 20px #970090;
+    border:1px solid rgb(255, 255, 255); 
+    height:15px;
+    
+    /* |hidden|scroll|auto|initial|inherit; */
+
+    /* .block_example {
+        width: 6rem;
+        height: 6rem;
+        margin: 0.5rem;
+        background-color: #000;
+        display: inline-block;
+    } */
+
+} 
+@media(max-width:400px){
+    .Footer{
+        width:10vw    }
+}

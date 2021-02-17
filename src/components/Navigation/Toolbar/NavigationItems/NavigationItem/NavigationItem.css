@@ -1,0 +1,101 @@
+/* Toolbar :NavigationItem normal one for <500px media query one for >500px */
+.NavigationItem{
+    margin:5px 0px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;  
+}
+
+.NavigationItem a{
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.NavigationItem a:hover{color: rgb(228, 248, 51);}
+/* .NavigationItem a:active,
+.NavigationItem a.active{
+    color: rgb(228, 248, 51);
+}    */
+
+@media(min-width: 500px){
+    .NavigationItem{
+        margin:0;
+        display: flex;
+        height: 100%;
+        width:auto;
+        align-items: center;
+    }
+    
+    .NavigationItem a{
+        color:white;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active{
+        background-color:rgb(75, 0, 71);
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        /* border-top: 1.5px solid white;
+        border-bottom: 1px solid white; */
+        color:white;
+        box-shadow:2px 0px 2px #e256db;
+    }   
+}
+
+/* sidedrawer NavigationItemA normal one for <500px and media query one for >500px*/
+.NavigationItemA{
+    margin:5px 0px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;  
+}
+
+.NavigationItemA a{
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.NavigationItemA a:hover{color: rgb(228, 248, 51);}
+/* .NavigationItemA a:active,
+.NavigationItemA a.active{
+    color: rgb(248, 58, 51);
+}    */
+
+@media(min-width: 500px){
+    .NavigationItemA{
+        margin:0;
+        display: flex;
+        height: 100%;
+        width:auto;
+        align-items: flex-start;
+    }
+    
+    .NavigationItemA a{
+        color:rgb(255, 255, 255);
+        height: 100%;
+        padding: 0px 0px;
+        margin:0 0 12px 0;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavigationItemA a:hover,
+    .NavigationItemA a:active,
+    .NavigationItemA a.active{
+        /* background-color:rgb(75, 0, 71); */
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        /* color:rgb(75, 0, 71); */
+        color:white;
+        box-shadow:2px 0px 2px #e256db;
+    }   
+}

@@ -1,0 +1,37 @@
+/* Toolbar :NavigationItems normal one for <500px media query one for >500px */
+.NavigationItems{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;  
+}
+
+@media(min-width:500px ){
+    .NavigationItems{
+    flex-flow: row;
+    }
+}
+
+/* Sidedrawer :NavigationItemsA normal one for <500px media query one for >500px */
+.NavigationItemsA{
+    margin:10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;    
+}
+
+@media(min-width:500px ){
+    .NavigationItemsA{
+    flex-flow: column;
+    align-items: flex-start;
+    height:7%;
+    padding:5px;
+    margin:0 0 0 -8px;    
+    }
+}

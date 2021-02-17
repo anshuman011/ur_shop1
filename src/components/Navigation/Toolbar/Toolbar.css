@@ -1,0 +1,29 @@
+.Toolbar{
+    height:58px;
+    width:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color:/* :#97008f */#460274f5;/*  #e41b005b; */
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:5px 20px;
+    box-sizing: border-box;
+    box-shadow:0 5px 20px #460274f5/*  #970090 */;
+    border:1px solid rgb(255, 255, 255);
+    z-index: 90;
+     
+}
+
+.Toolbar nav{
+    height: 100%;
+    margin-bottom:7px ;
+    
+}
+
+@media(max-width:500px){
+        .Toolbar nav{
+            display:none;
+        }
+    }
