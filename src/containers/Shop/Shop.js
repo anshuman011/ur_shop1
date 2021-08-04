@@ -42,6 +42,7 @@ class Shop extends Component{
     // }
     
     render(){
+        console.log(this.state.productDetails);
         let oneProduct=null
         if(this.state.productDetails){
              oneProduct=(<div className={classes.Shop}>

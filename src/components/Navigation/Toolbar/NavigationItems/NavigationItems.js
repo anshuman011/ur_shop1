@@ -12,7 +12,7 @@ class NavigationItems extends Component{
                           ["Returns","/2"],
                           ["Home","/"],
                           ["Cart Status","/4"],
-                          ["","/5"]],
+                          ["abc","/5"]],
         contentOfSidebar:["Option1","Option2","Option3","Option4"],
         func:"this.props.clicking"
         // ingredients:{
